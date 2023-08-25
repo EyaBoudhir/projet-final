@@ -1,0 +1,278 @@
+
+    <!DOCTYPE html>
+<html>
+  <head>  
+		<title> Active Wave </title>
+
+    <link rel="stylesheet"href="./styless.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <body onload="setLocal()">
+ 
+
+        <div class="header">
+            <h1>Articles de Sport</h1>
+            <p>Des équipements sportifs de haute qualité pour les passionnés</p>
+           
+    </div>
+    
+        <div class="navbar">
+            <a href="Home.html">Home</a>
+            <a href="Log in.html">Log in</a>
+            <a href="contact.html">Contact</a>
+            <div class="logo">
+              <a href="pan.html"> <i class="bx bx-cart"></i></a>
+          </div>
+          <div class="logo2">
+            <img class="logo2"src="logo.png" alt="A dog" >
+
+          </div>
+         
+
+        </div>
+           
+        <section class="home">
+          <div class="immg">
+          <div style="background-color: black; width: 1000px">
+            <img  class="image-acceuil"src="acceuil.png">
+            <p class="para">       <b>Bienvenue chez Sport Mall</b> </p>   
+              <p class="paraa"> Découvrez notre large sélection d'articles de sport de haute qualité.</p>
+          </div>
+        </div>
+            
+          
+          </section>
+        
+          
+
+
+          <section class="products">
+            <a name="productsss"> </a>
+            <p class="titre">
+      
+        
+        
+        <div class="txtbanner">
+          <h6 class="liv"> <i class='bx bxs-package' ></i>Livraison gratuite Pour toute la Tunisie</h6>
+         </div>
+            
+         <h5 class="sous-titre"> <i class="fa-regular fa-shirt-running"></i></h5>
+         <div class="cont">
+            <div class="product-container3">
+                
+        <div class="card-body"id="KalenjiFemme">
+              <img src="./res/KalenjiFemme.png" alt="Chaussures de Course">
+              <div class="contouring">
+
+              <h7 class="titlee"> KALENJI</h7>
+              <P class="prod">Chaussures de running femme jogflow 500.1 orange</P>
+              <p class="price">199DT</p>
+            
+              <div class="quantity">
+              
+                <button class="ajouter" onclick="add('KalenjiFemme')">Ajouter au panier</button>
+              </div>
+              
+              </div>
+            </div>
+             
+
+        
+           <div class="card-body" id="KalenjiHomme">
+              <img src="./res/KalenjiHomme.png" alt="Chaussures de Course">
+              <div class="contouring">
+              <h7 class="titlee"> KALENJI</h7>
+              <P class="prod">Chaussures de running homme jogflow 500.1 noir</P>
+              <div class="price">200DT</div>
+              <div class="quantity">
+   
+                <button class="ajouter"onclick="add('KalenjiHomme')">Ajouter au panier</button>
+               
+              </div>
+            </div>
+              </div>
+           <div class="card-body "id="KalenjiBleu">
+              <img src="./res/KalenjiBleu.png"alt="Chaussures de Course">
+              <div class="contouring">
+              <h8 class="titlee"> KALENJI</h8>
+              <P class="prod">Chaussures de running homme jogflow 500.1bleu</P>
+              <div class="price">220DT</div>
+              
+              <div class="quantity">
+              
+                <button class="ajouter" onclick="add('KalenjiBleu')" >Ajouter au panier</button>
+            </div>
+          </div>
+          </div>
+
+              </div>
+            </div>
+
+
+
+
+
+            <h5 class="sous-titre"> <i class="fa-regular fa-shirt-running"></i><i class="fa-regular fa-shirt-running"></i></h5>
+              <div class="cont"> 
+            <div class="product-container2">
+                
+        <div class="card-body"id="CHAUSSETTE">
+              <img src="./res/CHAUSSETTE.png" alt="Chaussures de Course">
+              <div class="contouring">
+
+              <h7 class="titlee"> Altengo</h7>
+              <P class="prod">CHAUSSETTE HIKE 100 HIGH  </P>
+              <p class="price">90DT</p>
+            
+              <div class="quantity">
+               
+                
+
+                <button class="ajouter"onclick="add('CHAUSSETTE')" >Ajouter au panier</button>
+              </div>
+            </div>
+            </div>
+             
+            <div class="card-body"id="Legging">
+              <img src="./res/Legging.png" alt="Chaussures de Course">
+              <div class="contouring">
+
+              <h7 class="titlee">Legging</h7>
+              <P class="prod">Legging tennis court dry femme </P>
+              <p class="price">70DT</p>
+            
+              <div class="quantity">
+               
+          
+                <button class="ajouter"onclick="add('Legging')" >Ajouter au panier</button>
+                
+              </div>
+            </div>
+            </div>
+                 
+
+            <div class="card-body"id="Casquette">
+              <img src="./res/Casquette.png" alt="Chaussures de Course">
+              <div class="contouring">
+
+              <h7 class="titlee">Casquette</h7>
+              <P class="prod">Casquette running ajustable </P>
+              <p class="price">20DT</p>
+            
+              <div class="quantity">
+                <button class="ajouter"  onclick="add('Casquette')">Ajouter au panier</button>
+              </div>
+            </div>
+            </div>
+</div>
+</div>
+
+
+
+
+            <h5 class="sous-titre"> <i class="fa-regular fa-racquet"></i><i class="fa-regular fa-racquet"></i></h5>
+             <div class="cont">
+            <div class="product-container3">
+            <div class="card-body"id="Gourde">
+              <img src="./res/Gourde.png" alt="Chaussures de Course">
+              <div class="contouring">
+
+              <h7 class="titlee">QUECHUA</h7>
+              <P class="prod">Gourde randonnée mh500 </P>
+              <p class="price">20DT</p>
+            
+              <div class="quantity">
+                <button class="ajouter" onclick="add('Gourde')">Ajouter au panier</button>
+
+                </div>
+                   
+            </div>
+            </div>
+
+            <div class="card-body"id="Sac">
+              <img src="./res/Sac.png" alt="Chaussures de Course">
+              <div class="contouring">
+
+              <h7 class="titlee">DOMYOS</h7>
+              <P class="prod">Sac fitness cardio training</P>
+              <p class="price">25DT</p>
+            
+              <div class="quantity">
+                <button class="ajouter" onclick="add('Sac')" >Ajouter au panier</button>
+           </div>
+           </div>
+          </div>
+          <div class="card-body"id="Brassard">
+            <img src="./res/Brassard.png" alt="Chaussures de Course">
+            <div class="contouring">
+
+            <h7 class="titlee">Brassard</h7>
+            <P class="prod"> Brassard for running </P>
+            <p class="price">35DT</p>
+          
+            <div class="quantity">
+              
+              <button class="ajouter" onclick="add('Brassard')" >Ajouter au panier</button>
+
+            </div>
+
+          </div>
+          </div>
+          </div> 
+            
+              </div>
+            
+
+              <section class="features">
+                <div class="feature">
+                  <img src="icon1.png" alt="Livraison rapide">
+                  <h2>Livraison Rapide</h2>
+                  <p>Nous offrons une livraison rapide pour que vous puissiez commencer à vous entraîner plus rapidement.<br>
+                    <b>+216 39 044 225</b>
+                  </p>
+                </div>
+                <div class="feature">
+                  <img src="icon2.png" alt="Service Client 24/7">
+                  <h3>Service Client 24/7</h3>
+                  <p>Notre équipe est disponible 24 heures sur 24, 7 jours sur 7 pour répondre à vos questions.<br>
+                  <b>  +216 73 202 556</b>
+                  </p>
+                </div>
+                <div class="feature">
+                  <img src="icon3.png" alt="Retours Faciles">
+                  <h4>Retours Faciles</h4>
+                  <p>Nous rendons le processus de retour simple et sans tracas, pour votre tranquillité d'esprit.<br> 
+                    <p><b>216 70 896 336</b></p>
+                  </p>
+                </div>
+              </section>
+    
+<footer>
+  <div class="social">
+  <p class="social-media"> <b>Social Media</b></p>
+
+<p class="icon" ><i class='bx bxl-instagram'></i> Active-Wave</p>
+  <p class="icon"><i class='bx bxl-facebook' ></i> Active Wave</p>
+ <p class="icon"><i class='bx bx-phone'></i> +216 70 256 896</p>
+ 
+  </div>
+  
+
+  </p>
+</footer>
+
+              
+
+
+
+
+
+
+        
+
+  
+<script src="script.js"></script>
+
+</body>
+
+</html>
